@@ -16,7 +16,7 @@ trap "handle_exit EXIT" EXIT
 DIST_ROOT="./dist"
 PKG_NAME="positive-reinforcement-theme"
 
-LAST_TAG_COMMIT=$(git rev-list --tags --max-count=1)
+LAST_TAG_COMMIT=$(git rev-list --tags --max-count=1 refs/heads/master)
 LAST_TAG=$(git describe --tags $LAST_TAG_COMMIT )
 TAG_PREFIX="$PKG_NAME-"
 

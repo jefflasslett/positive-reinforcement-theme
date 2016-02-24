@@ -1,4 +1,4 @@
-# My emac colour scheme: positive-reinforcement
+# My emacs colour scheme: positive-reinforcement
 
 This is my colour scheme.  I’ve used something like it for most of my career.
 The basic idea is that undesirable things like C preprocessor and literal
