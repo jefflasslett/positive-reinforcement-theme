@@ -3,11 +3,19 @@
 
 (require 'palette)
 
-(setq cterm '((class color)(min-colors 89)) )
+(setq cterm '((class color)(min-colors 89)))
 
 (custom-theme-set-faces
  'positive-reinforcement
- `(default (( ,cterm (:background ,pr-black :foreground ,pr-gray3)))))
+
+ `(default
+    (
+     (
+      ,cterm (:background ,pr-black :foreground ,pr-gray3)
+     )
+    )
+  )
+
  `(cursor ((((class color) (min-colors 89)) (:background "#e3dedd"))))
  `(fixed-pitch ((t (:family "Monospace"))))
  `(variable-pitch ((t (:family "Sans Serif"))))
@@ -197,5 +205,10 @@
  `(undo-tree-visualizer-default-face ((((class color) (min-colors 89)) :foreground "#b2b2b2")))
  `(undo-tree-visualizer-register-face ((((class color) (min-colors 89)) :foreground "#c56ec3")))
  `(undo-tree-visualizer-unmodified-face ((((class color) (min-colors 89)) :foreground "#7590db")))
+)
+
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'positive-reinforcement)
