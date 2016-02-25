@@ -23,7 +23,7 @@ TAG_PREFIX="$PKG_NAME-"
 # total number of commits
 BUILD=$(git log --oneline | wc -l | sed -e "s/[ \t]*//g")
 
-VERSION="${LAST_TAG%\.*}.${BUILD}"
+VERSION="${LAST_TAG%%-*}.${BUILD}"
 
 PKG_ROOT="${DIST_ROOT}/${PKG_NAME}-${VERSION}"
 
