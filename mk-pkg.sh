@@ -3,6 +3,8 @@
 set -o errexit
 set -o nounset
 
+shopt -s extglob
+
 handle_exit() {
     sig="$1"
 
@@ -16,7 +18,13 @@ trap "handle_exit EXIT" EXIT
 DIST_ROOT="./dist"
 PKG_NAME="positive-reinforcement-theme"
 
-VERSION="$(date -u +%Y%m%d.%H%M)"
+MAJOR="$(date -u +%Y%m%d)"
+TIME="$(date -u +%H%M)"
+MINOR="${TIME##*(0)}"
+
+[[ -z "$MINOR" ]] && MINOR="1"
+
+VERSION="${MAJOR}.${MINOR}"
 
 PKG_ROOT="${DIST_ROOT}/${PKG_NAME}-${VERSION}"
 
