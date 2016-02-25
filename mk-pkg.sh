@@ -16,14 +16,7 @@ trap "handle_exit EXIT" EXIT
 DIST_ROOT="./dist"
 PKG_NAME="positive-reinforcement-theme"
 
-LAST_TAG_COMMIT=$(git rev-list --tags --max-count=1 refs/heads/master)
-LAST_TAG=$(git describe --tags $LAST_TAG_COMMIT )
-TAG_PREFIX="$PKG_NAME-"
-
-# total number of commits
-BUILD=$(git log --oneline | wc -l | sed -e "s/[ \t]*//g")
-
-VERSION="${LAST_TAG%%-*}.${BUILD}"
+VERSION="$(date -u +%Y%m%d.%H%M)"
 
 PKG_ROOT="${DIST_ROOT}/${PKG_NAME}-${VERSION}"
 
