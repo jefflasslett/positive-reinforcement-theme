@@ -42,6 +42,11 @@
       pr-orng2 "#dfdf00"
       pr-orng3 "#ffff5f")
 
+(setq pr-prpl0 "#8a2be2"
+      pr-prpl1 "#9932cc"
+      pr-prpl2 "#ba55d3"
+      pr-prpl3 "#da70d6")
+
 
 ;; " greens
 ;; let s:grn0 = { 'c': '28', 'g': '#008700' }
