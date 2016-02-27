@@ -8,14 +8,14 @@
 ;; let s:gray5 = { 'c': '252', 'g': '#d0d0d0' } "
 ;; let s:white = { 'c':  '15', 'g': '#ffffff' } " white
 
-(setq pr-black "#000000"
-      pr-gray0 "#1c1c1c"
-      pr-gray1 "#3a3a3a"
-      pr-gray2 "#585858"
-      pr-gray3 "#808080"
-      pr-gray4 "#b2b2b2"
-      pr-gray5 "#d0d0d0"
-      pr-white "#ffffff")
+(defconst pr-black "#000000")
+(defconst pr-gray0 "#1c1c1c")
+(defconst pr-gray1 "#3a3a3a")
+(defconst pr-gray2 "#585858")
+(defconst pr-gray3 "#808080")
+(defconst pr-gray4 "#b2b2b2")
+(defconst pr-gray5 "#d0d0d0")
+(defconst pr-white "#ffffff")
 
 
 
@@ -25,10 +25,10 @@
 ;; let s:blue2 = { 'c': '31', 'g': '#0087df' }
 ;; let s:blue3 = { 'c': '45', 'g': '#00dfff' }
 
-(setq pr-blue0 "#0000af"
-      pr-blue1 "#005fdf"
-      pr-blue2 "#0087df"
-      pr-blue3 "#00dfff")
+(defconst pr-blue0 "#0000af")
+(defconst pr-blue1 "#005fdf")
+(defconst pr-blue2 "#0087df")
+(defconst pr-blue3 "#00dfff")
 
 
 ;; " red/orange
@@ -37,15 +37,15 @@
 ;; let s:orng2 = { 'c': '184', 'g': '#dfdf00' }
 ;; let s:orng3 = { 'c': '227', 'g': '#ffff5f' }
 
-(setq pr-red0  "#df0000"
-      pr-orng1 "#df8700"
-      pr-orng2 "#dfdf00"
-      pr-orng3 "#ffff5f")
+(defconst pr-red0  "#df0000")
+(defconst pr-orng1 "#df8700")
+(defconst pr-orng2 "#dfdf00")
+(defconst pr-orng3 "#ffff5f")
 
-(setq pr-prpl0 "#8a2be2"
-      pr-prpl1 "#9932cc"
-      pr-prpl2 "#ba55d3"
-      pr-prpl3 "#da70d6")
+(defconst  pr-prpl0 "#8a2be2")
+(defconst  pr-prpl1 "#9932cc")
+(defconst  pr-prpl2 "#ba55d3")
+(defconst  pr-prpl3 "#da70d6")
 
 
 ;; " greens
@@ -54,9 +54,9 @@
 ;; let s:grn2 = { 'c': '40', 'g': '#00df00' }
 ;; let s:grn3 = { 'c': '46', 'g': '#00ff00' }
 
-(setq pr-grn0 "#008700"
-      pr-grn1 "#00af00"
-      pr-grn2 "#00df00"
-      pr-grn3 "#00ff00")
+(defconst pr-grn0 "#008700")
+(defconst pr-grn1 "#00af00")
+(defconst pr-grn2 "#00df00")
+(defconst pr-grn3 "#00ff00")
 
 (provide 'palette)

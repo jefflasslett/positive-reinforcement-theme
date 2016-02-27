@@ -3,7 +3,7 @@
 
 (require 'palette)
 
-(setq cterm '((class color)(min-colors 89)))
+(defconst cterm '((class color)(min-colors 89)))
 
 (custom-theme-set-faces
  'positive-reinforcement
