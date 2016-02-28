@@ -1,7 +1,7 @@
 (deftheme positive-reinforcement
   "Created 2016-01-20.")
 
-(require 'pos-re-faces)
+(require 'positive-reinforcement-faces)
 
 (apply 'custom-theme-set-faces 'positive-reinforcement (pr-get-faces))
 
