@@ -1,0 +1,6 @@
+(
+ (spaceline-python-venv      ((,pr-cterm (:foreground "#c56ec3"))))
+ (spaceline-flycheck-error   ((,pr-cterm (:foreground "#e0211d"))))
+ (spaceline-flycheck-info    ((,pr-cterm (:foreground "#4f97d7"))))
+ (spaceline-flycheck-warning ((,pr-cterm (:foreground "#dc752f"))))
+)

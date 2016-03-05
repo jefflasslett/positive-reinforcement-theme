@@ -1,0 +1,6 @@
+(
+ (undo-tree-visualizer-current-face    ((,pr-cterm :foreground "#4f97d7")))
+ (undo-tree-visualizer-default-face    ((,pr-cterm :foreground "#b2b2b2")))
+ (undo-tree-visualizer-register-face   ((,pr-cterm :foreground "#c56ec3")))
+ (undo-tree-visualizer-unmodified-face ((,pr-cterm :foreground "#7590db")))
+)

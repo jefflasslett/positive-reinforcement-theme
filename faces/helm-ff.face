@@ -1,0 +1,9 @@
+(
+ (helm-ff-directory        ((,pr-cterm (:foreground "#4f97d7" :background "#292b2e" :weight bold))))
+ (helm-ff-dotted-directory ((,pr-cterm (:foreground "#4f97d7" :background "#292b2e" :weight bold))))
+ (helm-ff-executable       ((,pr-cterm (:foreground "#86dc2f" :background "#292b2e" :weight normal))))
+ (helm-ff-file             ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e" :weight normal))))
+ (helm-ff-invalid-symlink  ((,pr-cterm (:foreground "#f2241f" :background "#292b2e" :weight bold))))
+ (helm-ff-prefix           ((,pr-cterm (:foreground "#292b2e" :background "#4f97d7" :weight normal))))
+ (helm-ff-symlink          ((,pr-cterm (:foreground "#28def0" :background "#292b2e" :weight bold))))
+)

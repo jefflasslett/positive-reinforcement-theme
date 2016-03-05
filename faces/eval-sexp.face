@@ -1,0 +1,4 @@
+(
+ (eval-sexp-fu-flash       ((,pr-cterm (:background "#86dc2f" :foreground "#292b2e"))))
+ (eval-sexp-fu-flash-error ((,pr-cterm (:background "#e0211d" :foreground "#292b2e"))))
+)

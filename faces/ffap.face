@@ -1,0 +1,3 @@
+(
+ (ffap ((,pr-cterm (:foreground "#b2b2b2"))))
+)

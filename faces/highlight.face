@@ -1,0 +1,8 @@
+(
+ (lazy-highlight ((,pr-cterm (:background "#3f4953" :weight normal))))
+ (match          ((,pr-cterm (:background "#3f4953" :foreground "#86dc2f"))))
+ (custom-button  ((,pr-cterm :background "#191970" :foreground "87cefa")))
+ (error          ((,pr-cterm (:foreground "#e0211d"))))
+ (next-error     ((t (:inherit (region)))))
+ (query-replace  ((t (:inherit (isearch)))))
+)

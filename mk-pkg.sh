@@ -35,6 +35,7 @@ cat >"${PKG_ROOT}/${PKG_NAME}-pkg.el" <<EOF
 EOF
 
 cp *.el "$PKG_ROOT"
+cp -R faces "$PKG_ROOT"
 cp README.md "${PKG_ROOT}/README"
 
 (cd "$DIST_ROOT"; tar cvf "${PKG_NAME}-${VERSION}.tar" "${PKG_NAME}-${VERSION}")

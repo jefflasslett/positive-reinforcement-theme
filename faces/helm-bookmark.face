@@ -1,0 +1,8 @@
+(
+ (helm-bookmark-directory ((,pr-cterm (:inherit helm-ff-directory))))
+ (helm-bookmark-file      ((,pr-cterm (:foreground "#b2b2b2"))))
+ (helm-bookmark-gnus      ((,pr-cterm (:foreground "#c56ec3"))))
+ (helm-bookmark-info      ((,pr-cterm (:foreground "#c56ec3"))))
+ (helm-bookmark-man       ((,pr-cterm (:foreground "#c56ec3"))))
+ (helm-bookmark-w3m       ((,pr-cterm (:foreground "#c56ec3"))))
+)

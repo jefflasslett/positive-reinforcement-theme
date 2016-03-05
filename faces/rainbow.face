@@ -1,0 +1,12 @@
+(
+ (rainbow-delimiters-depth-1-face    ((,pr-cterm :foreground "#4f97d7")))
+ (rainbow-delimiters-depth-2-face    ((,pr-cterm :foreground "#bc6ec5")))
+ (rainbow-delimiters-depth-3-face    ((,pr-cterm :foreground "#2d9574")))
+ (rainbow-delimiters-depth-4-face    ((,pr-cterm :foreground "#67b11d")))
+ (rainbow-delimiters-depth-5-face    ((,pr-cterm :foreground "#b1951d")))
+ (rainbow-delimiters-depth-6-face    ((,pr-cterm :foreground "#4f97d7")))
+ (rainbow-delimiters-depth-7-face    ((,pr-cterm :foreground "#bc6ec5")))
+ (rainbow-delimiters-depth-8-face    ((,pr-cterm :foreground "#2d9574")))
+ (rainbow-delimiters-unmatched-face  ((,pr-cterm :foreground "#e0211d" :overline t)))
+ (rainbow-delimiters-mismatched-face ((,pr-cterm :foreground "#e0211d" :overline t)))
+)
