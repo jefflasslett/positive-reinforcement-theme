@@ -1,0 +1,7 @@
+(
+ (which-key-command-description-face ((,pr-cterm (                      :foreground "#b2b2b2"        ))))
+ (which-key-group-description-face   ((,pr-cterm (                      :foreground "#4f97d7"        ))))
+ (which-key-key-face                 ((,pr-cterm (                      :foreground "#bc6ec5" :bold t))))
+ (which-key-separator-face           ((,pr-cterm (:background nil       :foreground "#2d9574"        ))))
+ (which-key-special-key-face         ((,pr-cterm (:background "#bc6ec5" :foreground "#292b2e"        ))))
+)

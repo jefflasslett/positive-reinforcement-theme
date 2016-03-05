@@ -1,0 +1,55 @@
+(
+ (default ((,pr-cterm (:background ,pr-black :foreground ,pr-gray3))))
+
+ (fixed-pitch    ((t (:family "Monospace" ))))
+ (variable-pitch ((t (:family "Sans Serif"))))
+
+ (escape-glyph      ((,pr-cterm (        :foreground "#c4a000"                      ))))
+ (minibuffer-prompt ((,pr-cterm (:bold t :foreground "#4f97d7"                      ))))
+ (highlight         ((,pr-cterm (        :foreground "#b2b2b2" :background "#3f4953"))))
+ (cursor            ((,pr-cterm (                              :background "#e3dedd"))))
+ (region            ((,pr-cterm (        :background "#3f4953"                      ))))
+
+ (shadow
+  (
+   (
+    (
+     (class color grayscale)
+     (min-colors 88)
+     (background light)
+    )
+    (:foreground "grey50")
+   )
+   (
+    (
+     (class color grayscale)
+     (min-colors 88)
+     (background dark)
+    )
+    (:foreground "grey70")
+   )
+   (
+    (
+     (class color)
+     (min-colors 8)
+     (background light)
+    )
+    (:foreground "green")
+   )
+   (
+    (
+     (class color)
+     (min-colors 8)
+     (background dark)
+    )
+    (:foreground "yellow")
+   )
+  )
+ )
+
+ (secondary-selection ((,pr-cterm (:background "#100a14"))))
+ (trailing-whitespace ((,pr-cterm :foreground nil :background ,pr-orng1)))
+
+ (ffap ((,pr-cterm (:foreground "#b2b2b2"))))
+ (flx-highlight-face ((,pr-cterm (:foreground "#c56ec3" :underline nil))))
+)

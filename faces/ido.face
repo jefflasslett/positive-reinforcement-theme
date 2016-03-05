@@ -1,0 +1,6 @@
+(
+ (ido-first-match         ((,pr-cterm (:foreground "#c56ec3" :bold t))))
+ (ido-only-match          ((,pr-cterm (:foreground "#86dc2f" :bold t))))
+ (ido-subdir              ((,pr-cterm (:foreground "#4f97d7"))))
+ (ido-vertical-match-face ((,pr-cterm (:foreground "#c56ec3" :underline nil))))
+)

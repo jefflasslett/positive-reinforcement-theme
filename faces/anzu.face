@@ -1,0 +1,4 @@
+(
+ (anzu-mode-line ((,pr-cterm (:foreground "#b1951d" :weight bold))))
+)
+

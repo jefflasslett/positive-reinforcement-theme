@@ -1,0 +1,4 @@
+(
+ (ahs-face                     ((,pr-cterm (:background "#3f4953"))))
+ (ahs-plugin-whole-buffer-face ((,pr-cterm (:background "#86dc2f" :foreground "#292b2e"))))
+)

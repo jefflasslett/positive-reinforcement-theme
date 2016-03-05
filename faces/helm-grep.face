@@ -1,0 +1,7 @@
+(
+ (helm-grep-cmd-line ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+ (helm-grep-file     ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+ (helm-grep-finish   ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+ (helm-grep-lineno   ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+ (helm-grep-match    ((,pr-cterm (:foreground nil       :background nil :inherit helm-match))))
+)

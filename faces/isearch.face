@@ -1,0 +1,4 @@
+(
+ (isearch ((,pr-cterm (:foreground "#292b2e" :background "#86dc2f"))))
+ (isearch-fail ((t (:background "#dd0093"))))
+)

@@ -1,0 +1,5 @@
+(
+ (git-gutter-fr:added    ((,pr-cterm (:foreground "#67b11d" :weight bold))))
+ (git-gutter-fr:deleted  ((,pr-cterm (:foreground "#dc752f" :weight bold))))
+ (git-gutter-fr:modified ((,pr-cterm (:foreground "#4f97d7" :weight bold))))
+)

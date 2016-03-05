@@ -1,0 +1,4 @@
+(
+ (sp-pair-overlay-face    ((,pr-cterm (:background "#3f4953" :foreground nil                                ))))
+ (sp-show-pair-match-face ((,pr-cterm (                      :foreground "#86dc2f" :weight bold :underline t))))
+)

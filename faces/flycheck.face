@@ -1,0 +1,45 @@
+(
+ (flycheck-error
+  (
+   (
+    (
+     (supports :underline (:style line))
+     (class color) (min-colors 89)
+    )
+    (:underline (:style line :color "#e0211d"))
+   )
+   (,pr-cterm (:foreground "#b2b2b2" :background "#e0211d" :weight bold :underline t))
+  )
+ )
+
+ (flycheck-error-list-checker-name ((,pr-cterm (:foreground "#4f97d7"))))
+ (flycheck-fringe-error            ((,pr-cterm (:foreground "#e0211d" :weight bold))))
+ (flycheck-fringe-info             ((,pr-cterm (:foreground "#4f97d7" :weight bold))))
+ (flycheck-fringe-warning          ((,pr-cterm (:foreground "#dc752f" :weight bold))))
+
+ (flycheck-info
+  (
+   (
+    (
+     (supports :underline (:style line))
+     (class color) (min-colors 89)
+    )
+    (:underline (:style line :color "#4f97d7"))
+   )
+   (,pr-cterm (:foreground "#b2b2b2" :background "#4f97d7" :weight bold :underline t))
+  )
+ )
+
+ (flycheck-warning
+  (
+   (
+    (
+     (supports :underline (:style line))
+     (class color) (min-colors 89)
+    )
+    (:underline (:style line :color "#dc752f"))
+   )
+   (,pr-cterm (:foreground "#b2b2b2" :background "#dc752f" :weight bold :underline t))
+  )
+ )
+)

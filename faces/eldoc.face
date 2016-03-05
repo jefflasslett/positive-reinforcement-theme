@@ -1,0 +1,3 @@
+(
+ (eldoc-highlight-function-argument ((,pr-cterm (:foreground "#86dc2f" :bold t))))
+)

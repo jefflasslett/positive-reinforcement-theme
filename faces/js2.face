@@ -1,0 +1,9 @@
+(
+ (js2-external-variable        ((,pr-cterm (:foreground "cyan"   ))))
+ (js2-function-param           ((,pr-cterm (:foreground "cyan"   ))))
+ (js2-jsdoc-html-tag-delimiter ((,pr-cterm (:foreground "#2d9574"))))
+ (js2-jsdoc-html-tag-name      ((,pr-cterm (:foreground "#4f97d7"))))
+ (js2-jsdoc-value              ((,pr-cterm (:foreground "red"    ))))
+ (js2-private-function-call    ((,pr-cterm (:foreground "cyan"   ))))
+ (js2-private-member           ((,pr-cterm (:foreground "#b2b2b2"))))
+)

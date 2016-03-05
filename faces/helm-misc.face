@@ -1,0 +1,13 @@
+(
+ (helm-candidate-number ((,pr-cterm (:background "#292b2e" :foreground "#4f97d7" :bold t))))
+ (helm-header                  ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e" :underline nil :box nil))))
+ (helm-header-line-left-margin ((,pr-cterm (:foreground "#4f97d7" :background nil))))
+ (helm-match      ((,pr-cterm (:background "#293239" :foreground "#4f97d7"))))
+ (helm-match-item ((,pr-cterm (:background "#293239" :foreground "#4f97d7"))))
+ (helm-moccur-buffer ((,pr-cterm (:foreground "#bc6ec5" :background "#292b2e"))))
+ (helm-selection      ((,pr-cterm (:background "#3f4953"))))
+ (helm-selection-line ((,pr-cterm (:background "#212026"))))
+ (helm-separator     ((,pr-cterm (:foreground "#c56ec3" :background "#292b2e"        ))))
+ (helm-visible-mark  ((,pr-cterm (:foreground "#4f97d7" :background "#100a14"        ))))
+ (helm-source-header ((,pr-cterm (:foreground "#292b2e" :background "#c56ec3" :bold t))))
+)

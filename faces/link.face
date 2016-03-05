@@ -1,0 +1,8 @@
+(
+ (link         ((,pr-cterm (                      :foreground "#2aa1ae"                       :underline t  ))))
+ (link-visited ((,pr-cterm (                      :foreground "#c56ec3"                       :underline t  ))))
+ (fringe       ((,pr-cterm (:background "#292b2e" :foreground "#b2b2b2"                                     ))))
+ (tooltip      ((,pr-cterm (:background "#5e5079" :foreground "#b2b2b2" :bold nil :italic nil :underline nil))))
+ (header-line  ((t      (:background "#afd7ff" :foreground "#ffffff"                                     ))))
+ (button       ((t (:inherit (link)))))
+)
