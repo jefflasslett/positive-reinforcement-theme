@@ -1,0 +1,3 @@
+(
+ (org-kbd ((,pr-cterm (:inherit region :foreground "#b2b2b2" :box (:line-width 1 :style released-button)))))
+)

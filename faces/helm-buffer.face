@@ -1,0 +1,8 @@
+(
+ (helm-buffer-directory ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+ (helm-buffer-file      ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+ (helm-buffer-not-saved ((,pr-cterm (:foreground "#c56ec3" :background "#292b2e"))))
+ (helm-buffer-process   ((,pr-cterm (:foreground "#4f97d7" :background "#292b2e"))))
+ (helm-buffer-saved-out ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+ (helm-buffer-size      ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e"))))
+)

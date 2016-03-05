@@ -1,0 +1,3 @@
+(
+ (flx-highlight-face ((,pr-cterm (:foreground "#c56ec3" :underline nil))))
+)

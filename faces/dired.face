@@ -1,0 +1,10 @@
+(
+ (dired-flagged    ((,pr-cterm (:foreground "#f2241f"))))
+ (dired-header     ((,pr-cterm (:foreground "#c56ec3" :weight bold))))
+ (dired-ignored    ((,pr-cterm (:inherit shadow))))
+ (dired-mark       ((,pr-cterm (:foreground "#c56ec3" :weight bold))))
+ (dired-marked     ((,pr-cterm (:foreground "#a31db1" :weight bold))))
+ (dired-perm-write ((,pr-cterm (:foreground "#b2b2b2" :underline t))))
+ (dired-symlink    ((,pr-cterm (:foreground "#28def0" :background "#292b2e" :weight bold))))
+ (dired-warning    ((,pr-cterm (:foreground "#dc752f"))))
+)
