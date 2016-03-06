@@ -59,5 +59,8 @@
 (defconst pr-grn2 "#00df00")
 (defconst pr-grn3 "#00ff00")
 
+(defconst pr-grn4 "#006400")
+(defconst pr-grn5 "#228b22")
+
 (provide 'positive-reinforcement-palette)
 

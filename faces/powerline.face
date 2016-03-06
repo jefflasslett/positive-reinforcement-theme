@@ -1,6 +1,6 @@
 (
- (powerline-active1   ((,pr-cterm (:background "#5d4d7a" :foreground "#b2b2b2"))))
- (powerline-active2   ((,pr-cterm (:background "#5d4d7a" :foreground "#b2b2b2"))))
- (powerline-inactive1 ((,pr-cterm (:background "#212026" :foreground "#b2b2b2"))))
- (powerline-inactive2 ((,pr-cterm (:background "#212026" :foreground "#b2b2b2"))))
+ (powerline-active1   ((,pr-cterm (:background ,pr-grn4 :foreground ,pr-gray4))))
+ (powerline-active2   ((,pr-cterm (:background ,pr-grn4 :foreground ,pr-gray4))))
+ (powerline-inactive1 ((,pr-cterm (:background ,pr-gray1 :foreground ,pr-gray4))))
+ (powerline-inactive2 ((,pr-cterm (:background ,pr-gray1 :foreground ,pr-gray4))))
 )
