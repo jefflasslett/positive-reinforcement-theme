@@ -11,7 +11,7 @@
 (defconst pr-faces-base (concat pr-base "faces"))
 
 (defconst pr-faces
-  (mapcar 'read-from-file (directory-files pr-faces-base 1 "\.face$")))
+  (mapcar 'read-from-file (directory-files pr-faces-base t "\.face$")))
 
 (defun pr-get-faces ()
   "Pull faces from whereever"
