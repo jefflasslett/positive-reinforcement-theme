@@ -7,8 +7,11 @@
     (insert-file-contents file)
     (read (current-buffer))))
 
-(defconst pr-faces-base (file-name-directory load-file-name))
-(defconst pr-faces (mapcar 'read-from-file (directory-files pr-faces-base "faces/" "\.face$")))
+(defconst pr-base (file-name-directory load-file-name))
+(defconst pr-faces-base (concat pr-base "faces"))
+
+(defconst pr-faces
+  (mapcar 'read-from-file (directory-files pr-faces-base 1 "\.face$")))
 
 (defun pr-get-faces ()
   "Pull faces from whereever"
