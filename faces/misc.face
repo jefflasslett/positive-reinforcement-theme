@@ -6,9 +6,9 @@
 
  (escape-glyph      ((,pr-cterm (        :foreground "#c4a000"                      ))))
  (minibuffer-prompt ((,pr-cterm (:bold t :foreground "#4f97d7"                      ))))
- (highlight         ((,pr-cterm (        :foreground "#b2b2b2" :background "#3f4953"))))
- (cursor            ((,pr-cterm (                              :background "#e3dedd"))))
- (region            ((,pr-cterm (        :background "#3f4953"                      ))))
+ (highlight         ((,pr-cterm (        :foreground nil       :background ,pr-gray0))))
+ (cursor            ((,pr-cterm (                              :background ,pr-gray0))))
+ (region            ((,pr-cterm (                              :background "#3f4953"))))
 
  (shadow
   (
