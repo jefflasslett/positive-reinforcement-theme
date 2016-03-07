@@ -50,6 +50,6 @@
  (secondary-selection ((,pr-cterm (:background "#100a14"))))
  (trailing-whitespace ((,pr-cterm :foreground nil :background ,pr-orng1)))
 
- (ffap ((,pr-cterm (:foreground "#b2b2b2"))))
+ (ffap ((,pr-cterm (:foreground ,pr-gray4))))
  (flx-highlight-face ((,pr-cterm (:foreground "#c56ec3" :underline nil))))
 )

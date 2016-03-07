@@ -1,7 +1,7 @@
 (
- (mode-line           ((,pr-cterm (:foreground "#b2b2b2" :background "#222226" :box (:color "#5d4d7a" :line-width 1)))))
- (mode-line-buffer-id ((,pr-cterm (:bold t :foreground "#bc6ec5"))))
+ (mode-line           ((,pr-cterm (:foreground ,pr-gray4 :background ,pr-gray1 :box (:color ,pr-grn5 :line-width 1)))))
+ (mode-line-buffer-id ((,pr-cterm (:bold t :foreground ,pr-grn3))))
  (mode-line-emphasis ((t (:weight bold))))
- (mode-line-inactive ((,pr-cterm (:foreground "#b2b2b2" :background "#292b2e" :box (:color "#5d4d7a" :line-width 1)))))
- (mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color "grey40" :style released-button))) (t (:inherit (highlight)))))
+ (mode-line-inactive ((,pr-cterm (:foreground ,pr-gray4 :background ,pr-gray1 :box (:color ,pr-grn5 :line-width 1)))))
+ (mode-line-highlight ((((class color) (min-colors 88)) (:box (:line-width 2 :color ,pr-gray2 :style released-button))) (t (:inherit (highlight)))))
 )
